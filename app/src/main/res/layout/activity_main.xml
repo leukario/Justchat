@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layoutDescription="@xml/activity_main_scene"
+    tools:context=".MainActivity"
+    tools:layout_editor_absoluteX="-9dp"
+    tools:layout_editor_absoluteY="0dp">
+
+
+  <Button
+      android:id="@+id/push_button"
+      style="@style/Widget.AppCompat.Button"
+      android:layout_width="220dp"
+      android:layout_height="198dp"
+      android:layout_marginTop="12dp"
+      android:background="@drawable/button_bg_round"
+      android:drawableBottom="@drawable/send"
+      android:onClick="send_page"
+      android:padding="15dp"
+      android:text="SERVER"
+      android:textAppearance="@style/TextAppearance.AppCompat.Large"
+      android:textColor="@color/white"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toBottomOf="@+id/textView2"
+      tools:ignore="TextContrastCheck,TextContrastCheck" />
+
+  <Button
+      android:id="@+id/push_button2"
+      style="@style/Widget.AppCompat.Button"
+      android:layout_width="215dp"
+      android:layout_height="212dp"
+      android:layout_marginTop="44dp"
+      android:background="@drawable/button_bg2_round"
+      android:drawableBottom="@drawable/recieve"
+      android:onClick="recieve_page"
+      android:padding="15dp"
+      android:text="HOST"
+      android:textAppearance="@style/TextAppearance.AppCompat.Large"
+      android:textColor="@color/white"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toBottomOf="@+id/push_button"
+      tools:ignore="TextContrastCheck,TextContrastCheck" />
+
+  <TextView
+      android:id="@+id/textView"
+      android:layout_width="112dp"
+      android:layout_height="89dp"
+      android:layout_marginTop="100dp"
+      android:text="@string/just"
+      android:textColor="@color/black"
+      android:textSize="40sp"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintHorizontal_bias="0.391"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toTopOf="parent" />
+
+  <TextView
+      android:id="@+id/textView2"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_marginTop="136dp"
+      android:text="Chat"
+      android:textColor="@color/black"
+      android:textSize="40sp"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintHorizontal_bias="0.507"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toTopOf="parent" />
+
+  <ImageView
+      android:id="@+id/imageView4"
+      android:layout_width="47dp"
+      android:layout_height="39dp"
+      android:layout_marginTop="108dp"
+      android:contentDescription="@string/todo"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintHorizontal_bias="0.543"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toTopOf="parent"
+      app:srcCompat="@drawable/logo" />
+
+
+</android.support.constraint.ConstraintLayout>
+

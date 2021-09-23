@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Just transfer</string>
+    <string name="recieve">RECIEVE</string>
+    <string name="send">SEND</string>
+    <string name="transfer">Transfer</string>
+    <string name="just">Just</string>
+    <string name="todo">TODO</string>
+    <string name="title_activity_fullscreen">FullscreenActivity</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+</resources>
